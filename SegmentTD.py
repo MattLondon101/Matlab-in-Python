@@ -1,5 +1,5 @@
 %% TDeven
-AD=imread('C:\ADthesis\ADpython\ADprocess3_19\Matlab_Process_3_25_19\TheDermatologist\TDeven.png');
+AD=imread(path to image);
 %% Convert Image from RGB to L*a*b* Color Space
 labAD=rgb2lab(AD);
 imtool(labAD)
